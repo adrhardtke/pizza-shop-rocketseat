@@ -11,6 +11,7 @@ module.exports = {
   plugins: ["react-refresh", "simple-import-sort"],
   rules: {
     "simple-import-sort/imports": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
     // "simple-import-sort/exports": "error",
     "react-refresh/only-export-components": [
       "warn",
